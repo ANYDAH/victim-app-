@@ -62,30 +62,8 @@ Every file overwrite or deletion preserves the preceding version in:
 ```
 The version number, file size, SHA-256 hash, action (`overwrite` or `delete`), and ISO timestamp are immutably recorded in SQLite table `file_versions`. This mirrors BucketGuard's storage adapter and provides the ground truth required for rollback after an attack.
 
-### 4. The Planted Vulnerabilities (Intentional for Demo)
-- **Vulnerability A (Frontend Code Leak):**
-  The frontend source and built production JavaScript bundle (`dist/`) contain a readable comment banner:
-  ```javascript
-  // TODO remove before prod: service key finance-ops-key-7f3a9c
-  // INTENTIONAL for demo — agents discover these
-  ```
-  Attacking agents inspect client-side bundles to harvest `finance-ops-key-7f3a9c`.
 
-- **Vulnerability B (Unauthenticated Debug Endpoint):**
-  `GET /api/debug/env` requires no authentication and returns internal environment configuration:
-  ```json
-  {
-    "status": "debug_mode_active",
-    "service": "drivevault-storage-daemon",
-    "environment": "production-internal",
-    "ciCdKey": "ci-cd-deployer-2b8e1d",
-    "debug": true,
-    "version": "1.4.2-preview"
-  }
-  ```
-  Attacking agents probe debug endpoints to acquire `ci-cd-deployer-2b8e1d`.
-
-### 5. Idempotent Reset Script (`bun run seed`)
+### 4. Idempotent Reset Script (`bun run seed`)
 Running `bun run seed`:
 1. Purges `./data/vault` (including `.versions/`) and removes `./data/metadata.db`.
 2. Generates **60 realistic corporate files** on disk across 4 distinct categories:
@@ -99,7 +77,7 @@ Running `bun run seed`:
 
 *Running `bun run seed` at any point instantly restores pristine state between demo acts.*
 
-### 6. Ransom State Trigger (Automatic Full-Screen Red Banner)
+### 5. Ransom State Trigger (Automatic Full-Screen Red Banner)
 If a file named `READ_ME_FOR_RECOVERY.txt` appears in the vault root (`./data/vault/READ_ME_FOR_RECOVERY.txt`):
 - `GET /api/files` automatically prepends the note to the file list and attaches response header `X-Ransom-Detected: true`.
 - On the very next file-list refresh (manual or automatic 8-second poll), the UI transitions into a full-screen, pulsing red ransomware screen displaying:
@@ -109,7 +87,7 @@ If a file named `READ_ME_FOR_RECOVERY.txt` appears in the vault root (`./data/va
   - Live recovery re-scan button.
 - When `READ_ME_FOR_RECOVERY.txt` is removed (or rolled back by BucketGuard), the UI immediately dismisses the banner and returns to normal.
 
-### 7. Safety Invariant
+### 6. Safety Invariant
 The server strictly enforces vault boundary containment on startup:
 ```javascript
 if (!VAULT_ROOT.startsWith(path.resolve('./data/vault'))) {
