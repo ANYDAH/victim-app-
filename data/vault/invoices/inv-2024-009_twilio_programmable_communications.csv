@@ -1,0 +1,3 @@
+InvoiceNumber,Vendor,BillingDate,DueDate,ItemDescription,Quantity,UnitPrice,TaxRate,Subtotal,TotalAmount,Currency,PaymentStatus
+"INV-2024-009","Twilio Programmable Communications","2024-11-15","2025-01-15","Enterprise SaaS Infrastructure License",1,2880.45,10%,2880.45,3200.50,USD,PENDING_APPROVAL
+"INV-2024-009","Twilio Programmable Communications","2024-11-15","2025-01-15","Priority 24/7 SLA Support Tier",1,320.05,10%,320.05,352.06,USD,PENDING_APPROVAL

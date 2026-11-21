@@ -1,0 +1,12 @@
+{
+  "reportId": "HR-REP-202403",
+  "title": "HEALTH BENEFITS ENROLLMENT DATA",
+  "department": "Company-Wide",
+  "headcountCovered": 128,
+  "allocatedBudgetUsd": 980000,
+  "fiscalYear": 2024,
+  "status": "AUDITED_AND_APPROVED",
+  "generatedAt": "2024-11-15T10:00:00Z",
+  "confidentialityClassification": "RESTRICTED_INTERNAL_ONLY",
+  "auditLedgerRef": "0x03f84212b64dbaff"
+}

@@ -1,0 +1,12 @@
+{
+  "reportId": "HR-REP-202400",
+  "title": "PAYROLL SUMMARY 2024 Q1",
+  "department": "Executive & Finance",
+  "headcountCovered": 14,
+  "allocatedBudgetUsd": 1420000,
+  "fiscalYear": 2024,
+  "status": "AUDITED_AND_APPROVED",
+  "generatedAt": "2024-11-15T10:00:00Z",
+  "confidentialityClassification": "RESTRICTED_INTERNAL_ONLY",
+  "auditLedgerRef": "0xa2aa679ebee5772a"
+}

@@ -1,0 +1,3 @@
+InvoiceNumber,Vendor,BillingDate,DueDate,ItemDescription,Quantity,UnitPrice,TaxRate,Subtotal,TotalAmount,Currency,PaymentStatus
+"INV-2024-002","Amazon Web Services EMEA Cloud Tier","2024-11-15","2024-12-18","Enterprise SaaS Infrastructure License",1,80478.45,10%,80478.45,89420.50,USD,PENDING_APPROVAL
+"INV-2024-002","Amazon Web Services EMEA Cloud Tier","2024-11-15","2024-12-18","Priority 24/7 SLA Support Tier",1,8942.05,10%,8942.05,9836.25,USD,PENDING_APPROVAL

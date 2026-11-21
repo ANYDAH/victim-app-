@@ -1,0 +1,3 @@
+InvoiceNumber,Vendor,BillingDate,DueDate,ItemDescription,Quantity,UnitPrice,TaxRate,Subtotal,TotalAmount,Currency,PaymentStatus
+"INV-2024-004","Datadog Full Stack Observability","2024-11-15","2024-12-22","Enterprise SaaS Infrastructure License",1,8856.00,10%,8856.00,9840.00,USD,PENDING_APPROVAL
+"INV-2024-004","Datadog Full Stack Observability","2024-11-15","2024-12-22","Priority 24/7 SLA Support Tier",1,984.00,10%,984.00,1082.40,USD,PENDING_APPROVAL

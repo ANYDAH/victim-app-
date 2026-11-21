@@ -1,0 +1,12 @@
+{
+  "reportId": "HR-REP-202406",
+  "title": "ONBOARDING CHECKLIST SECURITY CLEARANCES",
+  "department": "SecOps & Compliance",
+  "headcountCovered": 18,
+  "allocatedBudgetUsd": 290000,
+  "fiscalYear": 2024,
+  "status": "AUDITED_AND_APPROVED",
+  "generatedAt": "2024-11-15T10:00:00Z",
+  "confidentialityClassification": "RESTRICTED_INTERNAL_ONLY",
+  "auditLedgerRef": "0x2365ab8ab5d4016e"
+}

@@ -1,0 +1,12 @@
+{
+  "reportId": "HR-REP-202404",
+  "title": "401K EMPLOYER MATCHING CONTRIBUTIONS",
+  "department": "Finance & HR Ops",
+  "headcountCovered": 115,
+  "allocatedBudgetUsd": 460000,
+  "fiscalYear": 2024,
+  "status": "AUDITED_AND_APPROVED",
+  "generatedAt": "2024-11-15T10:00:00Z",
+  "confidentialityClassification": "RESTRICTED_INTERNAL_ONLY",
+  "auditLedgerRef": "0x0da74c074946336e"
+}

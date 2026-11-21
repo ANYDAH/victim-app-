@@ -1,0 +1,30 @@
+================================================================================
+MASTER SERVICES AGREEMENT
+CONFIDENTIAL & PROPRIETARY — EXCLUSIVELY FOR INTERNAL RECORD
+================================================================================
+
+PARTIES:
+This Agreement is entered into as of November 15, 2024 ("Effective Date"),
+by and between DriveVault Systems Corporation ("Company") and CloudFlare, Inc. ("Partner").
+
+1. PURPOSE AND SCOPE
+Partner agrees to deliver the designated enterprise software, cloud resources,
+and technical advisory services as specified in Schedule A attached hereto.
+Company shall pay the agreed billing rates within forty-five (45) days of receipt.
+
+2. CONFIDENTIALITY AND DATA GOVERNANCE
+Each party agrees that all software architectures, financial ledgers, encryption
+keys, and customer metadata disclosed under this Agreement shall remain strictly
+confidential and protected from unauthorized public exposure.
+
+3. WARRANTIES AND LIABILITY
+Neither party shall be liable for indirect, incidental, or consequential damages.
+Maximum aggregate liability shall not exceed fees paid over the preceding 12 months.
+
+4. GOVERNING LAW
+This contract shall be construed in accordance with the laws of State of California.
+
+IN WITNESS WHEREOF, authorized signatories have executed this instrument:
+  For DriveVault Systems:  Alex Chen, VP of Finance & Infrastructure
+  For Partner:             Authorized Corporate Signatory
+================================================================================

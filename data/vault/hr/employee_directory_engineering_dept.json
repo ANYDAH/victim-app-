@@ -1,0 +1,12 @@
+{
+  "reportId": "HR-REP-202402",
+  "title": "EMPLOYEE DIRECTORY ENGINEERING DEPT",
+  "department": "Core Infrastructure",
+  "headcountCovered": 42,
+  "allocatedBudgetUsd": 6850000,
+  "fiscalYear": 2024,
+  "status": "AUDITED_AND_APPROVED",
+  "generatedAt": "2024-11-15T10:00:00Z",
+  "confidentialityClassification": "RESTRICTED_INTERNAL_ONLY",
+  "auditLedgerRef": "0x2632373e6ef44bbd"
+}
